@@ -1,3 +1,4 @@
+#OLD MACDONALD: Write a function that capitalizes the first and fourth letters of a name
 def old_macdonalds(a):
     con = []
     for x in range(len(a)):
