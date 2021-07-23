@@ -1,3 +1,4 @@
+#Write a function that checks whether a number is in a given range (inclusive of high and low)
 def ran_check(num,low,high):
     counter = False
     for x in range(low,high+1):

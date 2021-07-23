@@ -1,3 +1,4 @@
+#Write a Python function that accepts a string and calculates the number of upper case letters and lower case letters.
 sample = 'Hello Mr. Rogers, how are you this fine Tuesday?'
 def up_low(s):
     HCase = 0
