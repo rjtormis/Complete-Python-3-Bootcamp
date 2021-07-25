@@ -75,6 +75,7 @@ def MainGame():
             game_on = False
         while game_on:
             if turn == 'Player 1':
+                print('Player 1:')
                 board(gameBoard)
                 position = player_choice(gameBoard)
                 player_marker(gameBoard,player1,position)
@@ -86,6 +87,7 @@ def MainGame():
                 else:
                     turn = 'Player 2'
             else:
+                print('Player 2:')
                 board(gameBoard)
                 position = player_choice(gameBoard)
                 player_marker(gameBoard,player2,position)
